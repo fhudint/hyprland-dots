@@ -1,0 +1,10 @@
+*
+!.gitignore
+!README.md
+!.config
+!.config/hypr
+!.config/hypr/hyprland.conf
+!.config/waybar
+!.config/waybar/*
+!.config/waybar/scripts
+!.config/waybar/scripts/*
