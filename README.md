@@ -6,3 +6,9 @@ This repository contains my personal configuration files for the Hyprland tool. 
 * **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched waybar following hyprland faq!
 * **Notify Daemon** • [Dunst ](https://github.com/dunst-project/dunst) 🍃 Minimalist and functional!
 * **Launcher** • [Rofi ](https://github.com/davatorium/rofi) 🚀 Realmente rápido y customizable!
+
+## Setup
+
+
+## Credits
+© [fhudint](https://github.com/fhudint)

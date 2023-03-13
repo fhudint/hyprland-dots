@@ -1,6 +1,8 @@
 *
 !.gitignore
 !README.md
+!.wallpapers
+!.wallpapers/*
 !.config
 !.config/hypr
 !.config/hypr/hyprland.conf
