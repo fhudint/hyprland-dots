@@ -18,5 +18,13 @@ fc-cache -rv
 ```
 </details>
 
+## :bouquet: ‎ <samp>ACKNOWLEDGEMENTS</samp>
+
+|   | Inspiration and Resources                                   |                                                                 
+|:-:|:------------------------------------------------------------|
+| 1 | [linuxmobile](https://github.com/linuxmobile)               |                                                                 
+| 2 | [Chris Titus Tech](https://github.com/christitustech)       |
+| 3 | [owl4ce](https://github.com/owl4ce)                         |
+
 ## Credits
 © [fhudint](https://github.com/fhudint)
