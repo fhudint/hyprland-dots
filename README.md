@@ -2,10 +2,11 @@ This repository contains my personal configuration files for the Hyprland tool. 
 
 * **Window Manager** • [Hyprland ](https://github.com/hyprwm/Hyprland)🎨 Tiles Everywhere!
 * **Shell** • [Zsh ](https://www.zsh.org)🐚 Shell Platform!
-* **Terminal** • [WezTerm ](https://github.com/wez/wezterm) 💻 A powerful term with gpu support!
-* **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched waybar following hyprland faq!
+* **Terminal** • [WezTerm ](https://github.com/wez/wezterm) 💻 A powerful Terminal with GPU Support!
+* **Panel** • [Waybar ](https://aur.archlinux.org/packages/waybar-hyprland-git)🍧 Patched Waybar Following Hyprland FAQ!
 * **Notify Daemon** • [Dunst ](https://github.com/dunst-project/dunst) 🍃 Minimalist and functional!
-* **Launcher** • [Rofi ](https://github.com/davatorium/rofi) 🚀 Realmente rápido y customizable!
+* **Launcher** • [Rofi ](https://github.com/lbonn/rofi) 🚀 Rofi for Hyprland with Wayland Support!
+* **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) for GUI and [ranger](https://github.com/ranger/ranger) 🔖 console!
 
 ## Setup
 
