@@ -10,7 +10,13 @@ This repository contains my personal configuration files for the Hyprland tool. 
 * **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) for GUI and [ranger](https://github.com/ranger/ranger) 🔖 console!
 
 ## Setup
-
+<details>
+<summary><b>Regenerate the fonts cache</b></summary>
+This ensures all existing caches are cleaned and regenerated for all installed fonts.
+```sh
+fc-cache -rv
+```
+</details>
 
 ## Credits
 © [fhudint](https://github.com/fhudint)
