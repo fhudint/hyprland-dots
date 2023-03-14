@@ -5,6 +5,10 @@
 !.wallpapers/*
 !.config
 
+# Dunst Configurations
+!.config/dunst
+!.config/dunst/*
+
 # Hyprland Configurations
 !.config/hypr
 !.config/hypr/hyprland.conf
@@ -17,8 +21,6 @@
 !.config/rofi/powermenu/*
 !.config/rofi/scripts
 !.config/rofi/scripts/*
-
-.config/rofi/global/history.txt
 
 # Waybar Configurations
 !.config/waybar
