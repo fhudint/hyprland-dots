@@ -14,9 +14,9 @@ This repository contains my personal configuration files for the Hyprland tool. 
 <summary><b>Regenerate the fonts cache</b></summary>
 This ensures all existing caches are cleaned and regenerated for all installed fonts.
 
->```sh
->fc-cache -rv
->```
+```sh
+fc-cache -rv
+```
 
 </details>
 
