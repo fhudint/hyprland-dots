@@ -16,6 +16,7 @@ This ensures all existing caches are cleaned and regenerated for all installed f
 ```sh
 fc-cache -rv
 ```
+
 </details>
 
 ## :bouquet: ‎ <samp>ACKNOWLEDGEMENTS</samp>
