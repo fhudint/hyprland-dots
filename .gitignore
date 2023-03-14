@@ -4,8 +4,23 @@
 !.wallpapers
 !.wallpapers/*
 !.config
+
+# Hyprland Configurations
 !.config/hypr
 !.config/hypr/hyprland.conf
+
+# Rofi Configurations
+!.config/rofi
+!.config/rofi/global
+!.config/rofi/global/*
+!.config/rofi/powermenu
+!.config/rofi/powermenu/*
+!.config/rofi/scripts
+!.config/rofi/scripts/*
+
+.config/rofi/global/history.txt
+
+# Waybar Configurations
 !.config/waybar
 !.config/waybar/*
 !.config/waybar/scripts
