@@ -1,6 +1,6 @@
 *
-!.gitignore
 !README.md
+!.gitignore
 !.wallpapers
 !.wallpapers/*
 !.config
@@ -27,3 +27,12 @@
 !.config/waybar/*
 !.config/waybar/scripts
 !.config/waybar/scripts/*
+
+# Wezterm Configuration
+!.config/wezterm
+!.config/wezterm/*
+!.config/wezterm/lua
+!.config/wezterm/lua/*
+!.config/wezterm/colors
+!.config/wezterm/colors/*
+
