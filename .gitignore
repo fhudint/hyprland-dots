@@ -1,8 +1,21 @@
 *
 !README.md
 !.gitignore
+
+# Scripts
+!.scripts
+!.scripts/*
+
+# Walpapers
 !.wallpapers
 !.wallpapers/*
+
+# Wraper Hyprland
+!.local
+!.local/bin
+!.local/bin/wrapedhl
+
+# Configurations
 !.config
 
 # Dunst Configurations
@@ -13,6 +26,15 @@
 !.config/hypr
 !.config/hypr/hyprland.conf
 
+# ranger Configurations
+!.config/ranger
+!.config/ranger/*
+!.config/ranger/plugins
+!.config/ranger/plugins/*
+!.config/ranger/plugins/ranger_devicons
+!.config/ranger/plugins/ranger_devicons/*
+
+
 # Rofi Configurations
 !.config/rofi
 !.config/rofi/global
@@ -21,6 +43,10 @@
 !.config/rofi/powermenu/*
 !.config/rofi/scripts
 !.config/rofi/scripts/*
+
+# Viewnior Configurations
+!.config/viewnior
+!.config/viewnior/*
 
 # Waybar Configurations
 !.config/waybar
