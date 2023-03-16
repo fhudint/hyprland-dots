@@ -66,6 +66,7 @@ tooltip {
     margin: 3px 0px;
     margin-top: 10px;
     border: 1px solid #181825;
+    opacity: 0.8;
 }
 
 #tray {
