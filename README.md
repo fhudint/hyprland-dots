@@ -29,15 +29,15 @@ makepkg -si
 ```sh
 yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thunar
 ```
-> # Rofi with Wayland support
-
-```sh
-git clone https://github.com/lbonn/rofi.git
-cd rofi
-meson setup build
-ninja -C build
-sudo ninja -C build install
-``` 
+> #### Rofi with Wayland support
+>
+> ```sh
+> git clone https://github.com/lbonn/rofi.git
+> cd rofi
+> meson setup build
+> ninja -C build
+> sudo ninja -C build install
+> ``` 
 
 </details>
 
