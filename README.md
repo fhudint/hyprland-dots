@@ -9,7 +9,29 @@ This repository contains my personal configuration files for the Hyprland WM. Wi
 * **Launcher** • [Rofi ](https://github.com/lbonn/rofi) 🚀 Rofi for Hyprland with Wayland Support!
 * **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) for GUI and [ranger](https://github.com/ranger/ranger) 🔖 for Console!
 
-## Setup
+# Setup
+
+## Instalation
+
+<details>
+<summary><b> Installatio for Arch Linux</b></summary>
+
+### I'am using yay as aur helper
+
+```sh
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+```
+### Installing dependency
+
+```sh
+yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thunar
+```
+
+</details>
+
 <details>
 <summary><b>Regenerate the fonts cache</b></summary>
 This ensures all existing caches are cleaned and regenerated for all installed fonts.
