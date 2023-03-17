@@ -13,7 +13,7 @@
 # Wraper Hyprland
 !.local
 !.local/bin
-!.local/bin/wrapedhl
+!.local/bin/wrappedhl
 
 # Configurations
 !.config
