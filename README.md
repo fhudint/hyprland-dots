@@ -14,9 +14,9 @@ This repository contains my personal configuration files for the Hyprland WM. Wi
 ## Instalation
 
 <details>
-<summary><b> Installatio for Arch Linux</b></summary>
+<summary><b> Installation for Arch Linux</b></summary>
 
-### I'am using yay as aur helper
+# I'am using yay as aur helper
 
 ```sh
 git clone https://aur.archlinux.org/yay.git
@@ -24,11 +24,20 @@ cd yay
 makepkg -si
 
 ```
-### Installing dependency
+# Installing dependency
 
 ```sh
 yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thunar
 ```
+> # Rofi with Wayland support
+
+```sh
+git clone https://github.com/lbonn/rofi.git
+cd rofi
+meson setup build
+ninja -C build
+sudo ninja -C build install
+``` 
 
 </details>
 
