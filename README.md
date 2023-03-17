@@ -29,7 +29,7 @@ makepkg -si
 ```sh
 yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thunar
 ```
-> #### Rofi with Wayland support
+> <b>Rofi with Wayland support</b>
 >
 > ```sh
 > git clone https://github.com/lbonn/rofi.git
