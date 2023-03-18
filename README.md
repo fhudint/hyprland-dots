@@ -9,14 +9,14 @@ This repository contains my personal configuration files for the Hyprland WM. Wi
 * **Launcher** • [Rofi ](https://github.com/lbonn/rofi) 🚀 Rofi for Hyprland with Wayland Support!
 * **File Manager** • [Thunar](https://github.com/xfce-mirror/thunar) for GUI and [ranger](https://github.com/ranger/ranger) 🔖 for Console!
 
-# Setup
+# SETUP
 
-## Instalation
+## INSTALLATION (DEPENDENCY)
 
 <details>
-<summary><b> Installation for Arch Linux</b></summary>
+<summary><b> Arch Linux Distribution</b></summary>
 
-# I'am using yay as aur helper
+# Using yay as AUR helper
 
 ```sh
 git clone https://aur.archlinux.org/yay.git
@@ -24,13 +24,16 @@ cd yay
 makepkg -si
 
 ```
-# Installing dependency
+# Dependency
 
 ```sh
-yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thunar
+yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thunar swaybg alsa-utils brightnessctl imagemagick thunar thunar-archive-plugin thunar-volman ffmpegthumbnailer tumbler
 ```
-> <b>Rofi with Wayland support</b>
->
+</details>
+
+<details>
+<summary> <b>Rofi with Wayland support</b> </summary>
+
 > ```sh
 > git clone https://github.com/lbonn/rofi.git
 > cd rofi
@@ -38,8 +41,32 @@ yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thuna
 > ninja -C build
 > sudo ninja -C build install
 > ``` 
+</details>
+
+<details>
+<summary><b> </b></summary>
 
 </details>
+
+## INSTALLATION (PREREQUISITES)
+
+<details>
+<summary><b>Fonts</b></summary>
+
+# Using Font Fira Code
+
+```sh
+mkdir -p $HOME/Downloads/FiraCode
+cd $HOME/Downloads/FiraCode
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/FiraCode.zip
+unzip '*.zip'
+rm -rf '*.zip'
+cd
+sudo mv $HOME/Downloads/FiraCode/ /usr/share/fonts/
+```
+
+</details>
+
 
 <details>
 <summary><b>Regenerate the fonts cache</b></summary>
