@@ -43,11 +43,6 @@ yay -Sy hyprland-git waybar-hyprland-git wezterm sddm-git ranger dunst zsh thuna
 > ``` 
 </details>
 
-<details>
-<summary><b> </b></summary>
-
-</details>
-
 ## INSTALLATION (PREREQUISITES)
 
 <details>
