@@ -5,8 +5,6 @@ local function font_with_fallback(name, params)
 	return wezterm.font_with_fallback(names, params)
 end
 
-
-
 return {
 	-- OpenGL for GPU acceleration, Software for CPU
 	front_end = "OpenGL",
